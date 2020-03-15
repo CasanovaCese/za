@@ -21,7 +21,7 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log("KBBkaan| Hostlandı");
+  console.log("Kylus| Hostlandı");
   response.sendStatus(200);
 });
 app.listen(8000);
