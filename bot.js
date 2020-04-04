@@ -21,7 +21,7 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log("Nexa | Hostlandı");
+  console.log("LİTE BETA | Hostlandı");
   response.sendStatus(200);
 });
 app.listen(8000);
@@ -135,3 +135,6 @@ client.on('error', e => {
 client.login(ayarlar.token);
 
 //-----------------------KOMUTLAR-----------------------\\
+       client.on('ready', ()=>{
+client.channels.get('695688594483839107').join()
+})  
