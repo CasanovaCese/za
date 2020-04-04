@@ -32,12 +32,12 @@ message.channel.send(`:white_check_mark: Mesaj basariyla **` + client.guilds.red
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['duyurla'],
+  aliases: ['duyur'],
   permLevel: 4
 };
 
 exports.help = {
   name: 'dm',
   description: 'İstediğiniz şeyi bota duyurtur.',
-  usage: 'duyuru [duyurmak istediğiniz şey]'
+  usage: 'duyur [duyurmak istediğiniz şey]'
 };
