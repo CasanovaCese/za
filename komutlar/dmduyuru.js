@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     .setColor(0x2488E7)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .addField('Sen Napıyorsun', 'Bu komutu yetkin olmadan kullanamazsın.')
+    .addField(' Bu komutu Kullanmaya yetkin yok.')
     return message.author.sendEmbed(ozelmesajuyari); }
 
   let mesaj = args.slice(0).join(' ');
@@ -37,7 +37,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'dm',
+  name: 'duyur',
   description: 'İstediğiniz şeyi bota duyurtur.',
   usage: 'duyur [duyurmak istediğiniz şey]'
 };

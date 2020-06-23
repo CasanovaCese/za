@@ -8,12 +8,12 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
   console.log(`${client.user.username} ismi ile giriş yapıldı!`);
-  client.user.setStatus("BETA ");
+  client.user.setStatus("Koala Youtube ");
   //idle = boşta
   //dnd = rahatsız etmeyin
   //online = çevrimiçi
   console.log(`                                                                                                                                                                     `)
-  client.user.setActivity(`BETA ' `, { type: "LISTENING"});
+  client.user.setActivity(`Koala Youtube ' `, { type: "WATCHING"});
   //LISTENING = DİNLİYOR
   //WATCHING = İZLİYOR
   //PLAYING = OYNUYOR 

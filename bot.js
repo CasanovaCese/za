@@ -134,7 +134,3 @@ client.on('error', e => {
 
 client.login(ayarlar.token);
 
-//-----------------------KOMUTLAR-----------------------\\
-       client.on('ready', ()=>{
-client.channels.get('695688594483839107').join()
-})  
