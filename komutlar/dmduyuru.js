@@ -18,7 +18,7 @@ if (mesaj.length < 1) return message.channel.send('Birşey Yazmalısınız');
   console.log(`Duyuru: "${message.author.username}#${message.author.discriminator}" "${mesaj}"`);
 
       const mesajat = new Discord.RichEmbed()
-      .setColor('RANDOM')
+      .setColor('black')
       .setDescription('' + mesaj + '')
 
       client.users.forEach(u => {

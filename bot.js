@@ -21,12 +21,12 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log("LİTE BETA | Hostlandı");
+  console.log("koala-dm-bot | Hostlandı");
   response.sendStatus(200);
 });
 app.listen(8000);
 setInterval(() => {
-  http.get(`http://projeadın.glitch.me/`);
+  http.get(`https://koala-dm-bot.glitch.me/`);
 }, 280000)
 //-----------------------------------------------\\
 
@@ -134,3 +134,8 @@ client.on('error', e => {
 
 client.login(ayarlar.token);
 
+//----------botu sese sokma--------------//
+
+client.on('ready', ()=>{
+client.channels.get('724873070371930216').join()
+})
