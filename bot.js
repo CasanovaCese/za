@@ -137,5 +137,5 @@ client.login(ayarlar.token);
 //----------botu sese sokma--------------//
 
 client.on('ready', ()=>{
-client.channels.get('724873070371930216').join()
+client.channels.get('737098746478985408').join()
 })

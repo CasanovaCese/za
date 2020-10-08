@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 
 exports.run = (client, message, args) => {
 
-age.member.hasPermission('741996438824812574')) return message.channel.sendEmbed(new Discord.RichEmbed().setDescription('Bu komutu kullanabilmek için gerekli yetkiye sahip değilsin!') .setColor("random"));
     if (!message.guild) {
     const ozelmesajuyari = new Discord.RichEmbed()
     .setColor(0x2488E7)
